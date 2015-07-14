@@ -21,6 +21,7 @@ body  {
     h1{
         font-size: 60px !important;
     }
+    .btn {background-color: #F22613; color: white;border: none; &:hover {background-color: white; color: #F22613;}}
     margin-top: 200px;
 }
 .artist-info {
@@ -46,5 +47,8 @@ body  {
     a {color: white !important; &:hover {
         color: black !important;
         }}
-    margin-top: 900px;
+    margin-top: 750px;
+}
+.about {
+    p {font-size: 20px;}
 }
