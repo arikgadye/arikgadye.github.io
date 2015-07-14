@@ -1,0 +1,54 @@
+@import "normalize";
+
+$bright-highlight: #FF0000;
+$bold: 600 !important;
+$light: 300;
+
+body  {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    background: #336E7B !important;
+    h1 {
+        color: white;
+        font-weight: $bold;
+    }
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border: none !important;
+    a {color: white !important;}
+}
+.main-header {
+    h1{
+        font-size: 60px !important;
+    }
+    .btn {background-color: #F22613; color: white;border: none; &:hover {background-color: white; color: #F22613;}}
+    margin-top: 200px;
+}
+.artist-info {
+    p {color: white !important;}
+    ul {
+        text-decoration: underline;
+        li {
+            &:hover {
+                color: #4183D7 !important;
+            }
+        }
+    }
+    a {
+        color: white !important;
+        font-size: 20px;
+    }
+}
+.projects {
+    .artsquare {background-color: #9A12B3; img {margin-top: 12px;}}
+    .cip {background-color: #E74C3C; img {margin-top: 30px;}}
+    .bash {background-color: #4183D7; img {margin-top: 15px;}}
+    .artsquare, .cip, .bash {height: 90px; border-radius: 20px;}
+    a {color: white !important; &:hover {
+        color: black !important;
+        }}
+    margin-top: 750px;
+}
+.about {
+    p {font-size: 20px;}
+}
